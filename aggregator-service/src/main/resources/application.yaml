@@ -1,0 +1,8 @@
+grpc:
+  client:
+    user-service:
+      address: static://localhost:6060
+      nagotiationType: plaintext
+    movie-service:
+      address: static://localhost:5050
+      negotiationType: plaintext
